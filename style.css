@@ -1,0 +1,45 @@
+.navbar{
+  border-bottom: 1px solid gray;
+  padding-block: .1em;
+  padding-left: 1em;
+  color: green;
+}
+.navbar, .navbar ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul li{
+  list-style: none;
+  padding-inline: 1.5em;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #660471;
+}
+
+.section{
+  width: 80%;
+  margin: 4rem auto;
+  text-align: center;
+  line-height: 1.5rem;
+  color: #086657;
+}
+
+
+
+.section h1{
+  font-size: 3em;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #086657;
+  padding: .2em;
+  color: white;
+  text-align: center;
+}
